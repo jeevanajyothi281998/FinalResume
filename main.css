@@ -1,0 +1,96 @@
+.maindiv{
+
+background: white;
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+}
+
+.sub1{
+background: yellow;
+border-radius: 15px;
+box-shadow: 2px 3px 0 0 black;
+
+}
+
+
+.sub2{
+background: pink;
+border-radius: 15px;
+box-shadow: 2px 3px 0 0 black;
+}
+
+
+.sub3{
+background: green;
+border-radius: 15px;
+box-shadow: 2px 3px 0 0 black;
+}
+body{
+ text-align: center;
+  background: violet;
+}
+.image1{
+padding: 6px;
+border-radius: 20px;
+height: auto;
+text-align: center;
+margin: 6px;
+}
+
+
+.image2{
+padding: 6px;
+border-radius: 20px;
+height: auto;
+text-align: center;
+margin: 6px;
+}
+
+
+
+.image3{
+padding: 6px;
+border-radius: 20px;
+height: auto;
+text-align: center;
+margin: 6px;
+}
+
+@media all and (max-width:768px) {
+.maindiv{
+flex-wrap: wrap;
+
+}
+.sub1{
+height: 200px;
+width: 100%;
+display: flex;
+margin: 7px;
+}
+.sub2{
+height: 200px;
+width: 100%;
+display: flex;
+margin: 7px;
+}
+.sub3{
+height: 200px;
+width: 100%;
+display: flex;
+margin: 7px;
+}
+.image1{
+border-radius: 19px;
+  height: 150px;
+}
+.image2{
+border-radius: 19px;
+  height: 150px;
+}
+.image3{
+border-radius: 19px;
+  height: 150px;
+}
+}

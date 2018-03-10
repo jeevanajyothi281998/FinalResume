@@ -1,0 +1,40 @@
+.maindiv{
+  background: lightblue;
+  display: flex;
+  padding: 5px;
+}
+.leftdiv{
+  background: lightpink;
+  width: 25%;
+  position: fixed;
+  text-align: center;
+}
+.rightdiv{
+  background: lightpink;
+  width: 70%;
+margin-left: 26%;
+padding: 10px;
+
+}
+.image1{
+  align-items: center;
+  width: 50%;
+
+}
+@media all and (min-width:500px) and (max-width:768px){
+
+  .maindiv{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .leftdiv{
+    display: flex;
+    position: relative;
+    width: 100px;
+  }
+  .rightdiv{
+    width: 100px;
+    margin-left: 0%;
+    display: flex;
+  }
+}
